@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: sans-serif;
+}
+.main-home, .main-add, .main-edit{
+  
+  padding-top: 5.5rem;
+ padding-bottom: 6.5rem;
+}

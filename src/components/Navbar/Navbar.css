@@ -1,0 +1,44 @@
+.brand_name{
+    font-family: Khmer OS Muol Light;
+    font-size: 15pt;
+}
+.nav-icon{
+    font-size: 1.6rem;
+
+}
+.eng-logo, .kh-logo, .dark-mode{
+    width: 28px;
+    cursor: pointer;
+}
+.navbar{
+    box-shadow: 1px 1px 4px rgb(100, 99, 99);
+}
+
+/* darkmode */
+
+nav.dark{
+    background-color: rgb(51, 51, 51);
+}
+nav.dark .navbar-toggler-icon{
+    color: white;
+}
+nav.dark .navbar-brand span{
+    font-size: 12pt;
+    color: white; 
+}
+.navbar-brand span{
+    font-size: 12pt;
+}
+nav.dark .navbar-brand .brand_name{
+    color: white;
+}
+.navbar-nav .nav-link{
+    color: rgb(0, 0, 0);
+}
+nav.dark .navbar-nav .nav-link{
+    color: white;
+}
+nav.dark .icon-dark-mode{
+    color: white;
+    font-size: 20pt;
+}

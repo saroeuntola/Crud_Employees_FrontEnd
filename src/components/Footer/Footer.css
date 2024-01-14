@@ -1,0 +1,22 @@
+.main-footer{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px rgb(122, 122, 122);
+    
+}
+.main-footer p{
+    line-height: 8px;
+}
+.icon{
+    cursor: pointer;
+}
+@media (max-width: 575.98px) {
+    .main-footer .phone, .email,.follow,.powered{
+        margin-bottom: 25px;
+}
+.main-footer .powered{
+    margin-top: 20px;
+}
+.main-footer .row{
+    padding: 0 1.5rem;
+}
+}
